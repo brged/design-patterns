@@ -1,4 +1,4 @@
-package simplefactorypattern;
+package factorymethod;
 
 public class HaierTV implements TV {
 

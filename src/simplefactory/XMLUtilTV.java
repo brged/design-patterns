@@ -1,4 +1,4 @@
-package simplefactorypattern;
+package simplefactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class XMLUtilTV {
 		try {
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
-			Document doc = builder.parse(new File("src/simplefactorypattern/config.xml"));
+			Document doc = builder.parse(new File("src/simplefactory/config.xml"));
 			
 			NodeList n1=doc.getElementsByTagName("brandName");
 			Node classNode = n1.item(0).getFirstChild();

@@ -1,4 +1,4 @@
-package simplefactorypattern;
+package simplefactory;
 
 public class TVFactory {
 	public static TV produceTV(String brand) throws Exception{
